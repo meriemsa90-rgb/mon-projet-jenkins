@@ -7,7 +7,7 @@ pipeline {
  stage('Checkout') { 
  steps { 
  // Récupérer le code depuis Git (ou local) 
- git 'https://github.com/meriemsa90-rgb/mon-projet-jenkins.git' 
+ git branch: 'main', url: 'https://github.com/meriemsa90-rgb/mon-projet-jenkins.git' 
  } 
  } 
  stage('Build Docker Image') { 
