@@ -9,7 +9,8 @@ pipeline {
         stage('Checkout') { 
             steps { 
                 // CORRECTION : Utiliser le bon dépôt Git
-                git 'https://github.com/meriemss90-rgb/mon-projet-jenkins.git'
+                git 'https://github.com/meriemsa90-rgb/mon-projet-jenkins.git'
+
             } 
         } 
         
